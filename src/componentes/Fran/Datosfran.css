@@ -1,0 +1,33 @@
+.titulo{
+    position: relative;
+    margin: 10% auto 0;
+    width: 50%;
+    height: 400px;
+    background: linear-gradient(0deg, rgb(250, 250, 250), rgb(255, 255, 255));
+}
+.titulo::before, titulo::after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, yellow, orange, green, blue,
+    rgb(129, 108, 223), rgb(252, 147, 9), rgb(255, 0, 255),red,rgb(0, 195, 255));
+    background-size: 400%;
+    width: calc(100% + 5px); 
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate {
+    0%{
+        background-position: 0 0;
+    }50%{
+        background-position: 400% 0;
+    }100%{
+        background-position:0 0 ;
+    }
+}
+
+.titulo::after{
+    filter: blur(100px);
+}
