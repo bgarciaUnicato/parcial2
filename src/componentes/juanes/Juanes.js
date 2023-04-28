@@ -5,7 +5,7 @@ function Juanes(){
     return(
     <div class="container">
         <div class="hijo">
-        <h1 class="title">Juan Esteban Rivera P.</h1>
+        <h1 class="title">Juan Esteban Rivera P</h1>
         <table>
             <tr>
                 <td>
