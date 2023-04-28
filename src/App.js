@@ -1,5 +1,6 @@
 import './App.css';
 import Presentaciones from './Presentaciones';
+import Datosjcamilo from './componentes/JuanCamiloGrajales/Datosjcamilo';
 
 function App() {
   return (
