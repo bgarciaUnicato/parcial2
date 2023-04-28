@@ -1,5 +1,5 @@
 import imgJuanes from './juanes2.jpg';
-import './stye.css';
+import './style.css';
 
 function Juanes(){
     return(
