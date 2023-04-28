@@ -7,7 +7,7 @@ function Datosjcamilo() {
         
         <h2> Juan Camilo Grajales </h2>
           
-        <img src={FotoCamilo} alt="Foto Camilo" />
+        <img src={FotoCamilo} alt="Foto Camilo"  />
 
           <p>
            
