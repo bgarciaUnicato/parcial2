@@ -1,3 +1,4 @@
+import './Estilo.css'
 import FotoCamilo from './FotoCamilo.jpg';
 
 function Datosjcamilo() {
@@ -6,7 +7,7 @@ function Datosjcamilo() {
         
         <h2> Juan Camilo Grajales </h2>
           
-        <img src={FotoCamilo} alt="Foto Camilo" style="float:left;  margin-right:10px; width:100px; height:100px;" />
+        <img src={FotoCamilo} alt="Foto Camilo" />
 
           <p>
            
