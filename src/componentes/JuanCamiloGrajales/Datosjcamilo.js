@@ -1,4 +1,4 @@
-import FotoCamilo from './componentes/JuanCamiloGrajales/FotoCamilo.jpg';
+import FotoCamilo from './FotoCamilo.jpg';
 
 function Datosjcamilo() {
     return (
