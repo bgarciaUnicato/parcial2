@@ -6,8 +6,7 @@ import Juanes from './componentes/juanes/Juanes';
 function App() {
   return (
     <div className="App">
-      <Presentaciones />
-      <Juanes />
+      <Presentaciones />      
     </div>
   );
 }
