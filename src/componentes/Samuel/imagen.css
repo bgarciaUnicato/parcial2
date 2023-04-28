@@ -1,24 +1,123 @@
 .imagenes{
-    border-radius: 150px;
-    width: auto;
-    height: 300px;
-    float: right;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    float: left;
     margin-left: auto;
-    margin-right: 100px;
-    margin-top: -100px;
+    margin-right: 1040px;
+    margin-top: 0px;
 }
  p{
     font-family: 'Carter One', cursive;
     font-size: 18px;
-    text-align:center;
+    text-align:left;
  }
  .principal {
     font-family: 'Carter One', cursive;
       font-size: 20px;
-      text-align:left;
-     
+      text-align:center;
       word-wrap: break-word;
-      width: 720px;
+      width: 1120px;
+      float:right
       
       
     }
+
+    div.polaroid{
+      float:left;
+      width: 200px;
+      height: 240px;
+      background-color: rgb(90, 90, 90);
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2), 0 6px 20px 0 rgba(0,0, 0, 0.19);
+      border-radius: 50px;
+      display: block;
+      margin-bottom: 25px;
+      margin-left: 26px;
+      margin-right: 1040px;
+      margin-top: 0px;
+    }
+    div.contenedor{
+
+        text-align:center;
+        margin-top: 0px;
+        padding:10px 20px;
+      }
+      div.polaroid1{
+         float:left;
+         width: 350px;
+         height: 240px;
+         background-color: rgb(90, 90, 90);
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2), 0 6px 20px 0 rgba(0,0, 0, 0.19);
+         border-radius: 50px;
+         display: block;
+         margin-bottom: 25px;
+         margin-left: 240px;
+         margin-right: 1040px;
+         margin-top: -263px;
+       }
+       div.contenedor1{
+   
+           text-align:center;
+           margin-top: 0px;
+           padding:10px 20px;
+         }
+
+         div.polaroid2{
+            float:left;
+            width: 350px;
+            height: 240px;
+            background-color: rgb(90, 90, 90);
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2), 0 6px 20px 0 rgba(0,0, 0, 0.19);
+            border-radius: 50px;
+            display: block;
+            margin-bottom: 25px;
+            margin-left: 600px;
+            margin-right: 1040px;
+            margin-top: -263px;
+          }
+          div.contenedor2{
+      
+              text-align:center;
+              margin-top: 0px;
+              padding:10px 20px;
+            }
+
+            div.polaroid3{
+               float:left;
+               width: 350px;
+               height: 240px;
+               background-color: rgb(90, 90, 90);
+               box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2), 0 6px 20px 0 rgba(0,0, 0, 0.19);
+               border-radius: 50px;
+               display: block;
+               margin-bottom: 25px;
+               margin-left: 960px;
+               margin-right: 1040px;
+               margin-top: -263px;
+             }
+             div.contenedor3{
+         
+                 text-align:center;
+                 margin-top: 0px;
+                 padding:10px 20px;
+               }
+   
+   .cont_TEX{
+      font-weight: bold;
+      font-size: 15px;
+      text-align:center;
+      padding:20px 20px;
+
+      }
+
+      h{
+         font-weight: bold;
+         font-size: 20px;
+      }
+      .cont_TEX2{
+         
+         font-size: 16px;
+         text-align:center;
+         padding:-2px 10px;
+   
+         }
