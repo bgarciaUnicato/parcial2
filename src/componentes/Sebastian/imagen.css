@@ -1,0 +1,35 @@
+.imagen{
+    width: 400px;
+    height: 400px;
+    float: left;
+    border-radius: 50px;
+
+    
+    
+    }
+    .imagen1{
+        margin-left: auto; 
+        border-radius: 50px;
+    width: auto;
+    height: 250px;
+    }
+    .imagen2{
+        margin-left: auto;
+        border-radius: 50px;
+    width: auto;
+    height: 250px;
+    float: center;
+    }
+   
+    .p{
+     align-content: center;
+     float:left
+    }
+    .imagen3{
+        margin-left: auto; 
+        border-radius: 50px;
+    width: auto;
+    height: 250px;
+    float: center;
+
+    }
