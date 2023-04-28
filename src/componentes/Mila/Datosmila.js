@@ -11,8 +11,8 @@ function Datosmila() {
           <h1>Maria Camila Espinosa Florez</h1>
           <br></br>
           <img class="imagen1" src={imagen}alt='img1'/>
-          
-          <p> Me llamo Maria Camila pero me llaman Mila, naci el 10/10/2002, osea tengo 20 años, estudio ingenieria de sistemas y estoy en 4 semestre en la Unicatolica. Primero era de ingenieria industrial, pero en ya en 3 semestre me cambie para sistemas y me encuentro feliz</p>
+             
+          <p> Me llamo Maria Camila pero me llaman Mila , naci el 10/10/2002, osea tengo 20 años, estudio ingenieria de sistemas y estoy en 4 semestre en la Unicatolica. Primero era de ingenieria industrial, pero en ya en 3 semestre me cambie para sistemas y me encuentro feliz</p>
           <br></br>
           <p> Me gusta dormir, bailar y escuhar musica, pero no me gusta la cebolla, el coco y esperar, aunque tengo muchas mas cosas que no me gustan como que me cogan las coasas sin permiso y que cuenten con mi tiempo pero tambien tengo mas cosas que me gustan como la salchipapa, pintar y ver doramas</p>
           <br></br>
