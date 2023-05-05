@@ -1,7 +1,7 @@
 .imagen{
-    width: 400px;
-    height: 400px;
-    float: left;
+    width: 600px;
+    height: 600px;
+    float: center;
     border-radius: 50px;
 
     
@@ -21,9 +21,9 @@
     float: center;
     }
    
-    .p{
-     align-content: center;
-     float:left
+    p{
+     text-align: justify;
+     float:center
     }
     .imagen3{
         margin-left: auto; 
@@ -31,5 +31,17 @@
     width: auto;
     height: 250px;
     float: center;
+
+    }
+    .Titulo_Sebastian{
+        font-family: 'Pacifico', cursive;
+
+    } 
+
+    .imagen4{
+        margin-left: auto; 
+        border-radius: 50px;
+    width: auto;
+    height: 250px;
 
     }
