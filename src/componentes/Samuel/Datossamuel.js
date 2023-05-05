@@ -24,7 +24,7 @@ function Datossamuel() {
 <div class="polaroid1" >
       <div class="contenedor1">
         <h>Breve presentación</h>
-       <p class="cont_TEX2">Mi nombre es Samuel Leonel Pacheco, tengo 19 años, hoy por hoy vivo en el barrio Poblado Campestre. Soy el menor de 4 hijos y tío de un solo sobrino. </p>
+       
        <p class="cont_TEX2">Mi nombre es Samuel Leonel Pacheco, tengo 19 años, hoy por hoy vivo en el barrio Poblado Campestre. Soy el menor de 4 hijos y tío de un solo sobrino. </p>
        <p class="cont_TEX2">Actualmente estoy en el cuarto semestre de ingenieria de sistemas en la Unicatolica</p>
 </div>

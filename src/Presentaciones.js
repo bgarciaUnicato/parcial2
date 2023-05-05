@@ -1,8 +1,13 @@
-
+import Datossamuel from './componentes/Samuel/Datossamuel';
+import Catalogo_c from './componentes/Samuel/Catalogo_caricaturas';
+import Juanes from './componentes/juanes/Juanes';
 function Presentaciones() {
   return (
     <div >
-        <h1>Estudiantes del Curso</h1>
+        
+        
+        <Catalogo_c/>
+        
     </div>
   );
 }
