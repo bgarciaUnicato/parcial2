@@ -1,6 +1,5 @@
 import './App.css';
 import Presentaciones from './Presentaciones';
-import Juanes from './componentes/juanes/Juanes';
 
 
 function App() {

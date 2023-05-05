@@ -4,11 +4,8 @@ import Datosamuel from './componentes/Samuel/Datossamuel';
 
 function Presentaciones() {
   return (
-    <div >
-        <h1>Estudiantes del Curso</h1>        
+    <div >       
         <Juanes />  
-        <p />
-        <Datosamuel />
     </div>
     
   );

@@ -15,6 +15,12 @@ table {
     border-radius:150px;
 }
 
+.login{  
+  border: 3px solid darkcyan;  
+  width:400;
+  height:400;
+}
+
 .container {
   
   display: flex;

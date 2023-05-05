@@ -1,32 +1,83 @@
-import imgJuanes from './juanes2.jpg';
+import imgBob from './bob.jpg';
+import imgRick from './rick.jpg';
+import imgScooby from './scooby.jpg';
 import './style.css';
+import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Juanes(){
-    return(
-    <div class="container">
-        <div class="hijo">
-        <h1 class="title">Juan Esteban Rivera P</h1>
-        <table>
-            <tr>
-                <td>
-                    <img src={imgJuanes} height={250} class="imgRedonda"></img>
-                </td>
-                <td>
-                    <div class="row">
-                        <div class="col-md">
-                            <div class="card text-center">
-                                <div class="card-body">                        
-                                    <p class="card-text">Hola! Soy Juan Esteban Rivera, tengo 30 años y soy estudiante de ingeniería de sistemas. Hace 10 años trabajo como ingeniero en una multinacional de software llamada Open International. Me encanta viajar, conozco gran parte de nuestro país, y además he tenido la oportunidad de viajar a otros 9 paises más. Me encanta conocer diferentes culturas y la historia de otras naciones.</p>
-                                </div>
-                            </div>          
-                        </div>            
-                    </div>
-                </td>
-            </tr>
-        </table>    
-        </div>                 
+    return(        
+    <div>
+        <Container>
+            <Row>
+                <Col md="auto">
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={imgBob}
+                                alt="First slide"
+                                width="300" 
+                                height="300"
+                            />
+                            <Carousel.Caption>
+                                <h3>First slide label</h3>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={imgRick}
+                                alt="Second slide"
+                                width="300" 
+                                height="300"
+                            />
+                            <Carousel.Caption>
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={imgScooby}
+                                alt="Third slide"
+                                width="300" 
+                                height="300"
+                            />
+                            <Carousel.Caption>
+                                <h3>Third slide label</h3>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+                </Col>
+                <Col>
+                    <Form>
+                        <Form.Group className="mb-1" controlId="formBasicEmail">
+                            <Form.Label>Usuario o Correo electrónico</Form.Label>
+                            <Form.Control type="email" placeholder="Ingrese su usuario o correo electrónico" />
+                        </Form.Group>
+
+                        <Form.Group className="mb-1" controlId="formBasicPassword">
+                            <Form.Label>Contraseña</Form.Label>
+                            <Form.Control type="password" placeholder="Ingrese su contraseña" />
+                        </Form.Group>
+
+                        <Button variant="primary" type="submit">
+                            Ingresar
+                        </Button>
+                    </Form>
+                </Col>
+            </Row>
+        </Container>              
     </div>
-        )
+    );
 }
 
 export default Juanes;
