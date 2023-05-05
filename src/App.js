@@ -1,10 +1,10 @@
 import './App.css';
-import Presentaciones from './Presentaciones';
+import CaricaturaJC from './componentes/JuanCamiloGrajales/CaricaturaJC';
 
 function App() {
   return (
     <div className="App">
-      <Presentaciones />
+      <CaricaturaJC />
     </div>
   );
 }
