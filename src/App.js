@@ -1,11 +1,33 @@
 import './App.css';
-import Presentaciones from './Presentaciones';
+import NavbarComp from './componentes/NavbarComp';
+import Presentaciones from './componentes/Presentaciones';
+
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Presentaciones />
-    </div>
+    <Router>
+
+      <Switch>
+        <Route path="/" exact>
+        <NavbarComp />
+        <Presentaciones/>
+        </Route>
+      </Switch>
+
+      <Switch>
+        <Route path="/proyectos" exact>
+          <NavbarComp />
+        </Route>
+      </Switch>
+
+    </Router>
   );
 }
 
