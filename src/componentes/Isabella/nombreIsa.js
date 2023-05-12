@@ -5,7 +5,7 @@ import divisionisa from "./divisionisa.png"
 import personajesIsa from './personajesIsa';
 import episodiosIsa from './episodiosIsa';
 
-function nombreisa() {
+function nombreIsa() {
   return (
     <div className="App">
       <personajesIsa />
@@ -36,4 +36,4 @@ function nombreisa() {
   );
 }
 
-export default nombreisa;
+export default nombreIsa;
