@@ -3,7 +3,24 @@
 }
 .pnombres   {
     text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
 }
 .divisionisa    {
     text-align: center;
+}
+.eppepinillo    {
+    text-align:justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+.guarderia  {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h2pepinillo    {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h2jerry    {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }

@@ -14,11 +14,11 @@ function nombreIsa() {
       <div class="container text-center">
 
        <div class="row align-items-start">
-         <img className="tituloIsa" src={tituloIsa} /> 
+         <img className="tituloIsa" src={tituloIsa} alt="Titulo Rick y Morty" /> 
        </div>
 
        <div class="row align-items-start">
-         <img className="imgnombres" src={imgnombres} />
+         <img className="imgnombres" src={imgnombres} alt="Rick y Morty"/>
        </div>
 
        <div class="row align-items-start">
@@ -27,7 +27,7 @@ function nombreIsa() {
           Morty, quienes pasan el tiempo entre la vida doméstica y los viajes espaciales, temporales e intergalácticos. </p>
        </div>
 
-       <img class="divisionisa" src={divisionisa} />
+       <img class="divisionisa" src={divisionisa} alt="division" />
 
        </div>
  
