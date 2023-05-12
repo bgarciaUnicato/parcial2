@@ -1,12 +1,12 @@
 import './App.css';
 import Presentaciones from './Presentaciones';
-import nombreIsa from './componentes/Isabella/nombreIsa'
+import NombreIsa from './componentes/Isabella/NombreIsa'
 
 function App() {
   return (
     <div className="App">
       <Presentaciones />
-      <nombreIsa/>
+      <NombreIsa/>
     </div>
   );
 }

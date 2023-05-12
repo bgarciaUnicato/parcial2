@@ -2,14 +2,14 @@ import tituloIsa from "./titulo.jpg"
 import imgnombres from "./imgnombres.jpg"
 import './cositas.css';
 import divisionisa from "./divisionisa.png"
-import personajesIsa from './personajesIsa';
-import episodiosIsa from './episodiosIsa';
+import PersonajesIsa from './PersonajesIsa';
+import EpisodiosIsa from './EpisodiosIsa';
 
-function nombreIsa() {
+function NombreIsa() {
   return (
     <div className="App">
-      <personajesIsa />
-      <episodiosIsa/>
+      <PersonajesIsa />
+      <EpisodiosIsa/>
 
       <div class="container text-center">
 
@@ -36,4 +36,4 @@ function nombreIsa() {
   );
 }
 
-export default nombreIsa;
+export default NombreIsa;
