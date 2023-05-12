@@ -1,0 +1,15 @@
+.intro {
+    text-align: justify;
+    padding: 10px 50px;
+    justify-content: center; 
+    font-size: 100%;
+}
+
+.port{
+    padding: 0% 25%;
+    justify-content: center;
+}
+
+.port img{
+    width: 70%;
+}
