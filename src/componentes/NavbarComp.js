@@ -1,13 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function NavbarComp() {
 
-  
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
@@ -19,55 +17,25 @@ function NavbarComp() {
           <ul class="navbar-nav">
             <li class="nav-item">
               <Link
-                to="/signalInsp"
+                to="/simpson"
                 className="nav-link active"
                 aria-current="page"
               >
                 {" "}
-                Signal Inspection
+                Los simpson
               </Link>
             </li>
-
 
             <li class="nav-item">
               <Link
-                to="/tablaDatos"
+                to="/caballeroszodiaco"
                 className="nav-link active"
                 aria-current="page"
               >
                 {" "}
-                Signal Data
+                Caballeros Zodiaco
               </Link>
             </li>
-
-
-            <li class="nav-item">
-              <Link
-                to="/signalFourier"
-                className="nav-link active"
-                aria-current="page"
-              >
-                {" "}
-                Fourier Transform
-              </Link>
-            </li>
-
-
-            
-            <li class="nav-item">
-              <Link
-                to="/proyectos"
-                className="nav-link active"
-                aria-current="page"
-              >
-                {" "}
-                Signal Fit
-              </Link>
-            </li>
-
-
-
-
 
             <li class="botonLogOut">
               <Button
