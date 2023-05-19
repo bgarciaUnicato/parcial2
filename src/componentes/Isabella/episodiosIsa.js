@@ -2,7 +2,7 @@ import './cositas.css';
 import epPepinillo from "./epPepinillo.jpg"
 import jerry from "./jerry.jpg"
 
-function episodiosIsa()   {
+function EpisodiosIsa()   {
  
  <div class="container text-center">
 
@@ -50,4 +50,4 @@ function episodiosIsa()   {
    
  
 }
-export default episodiosIsa;
+export default EpisodiosIsa;

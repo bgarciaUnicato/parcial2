@@ -1,9 +1,9 @@
-import tituloIsa from "./titulo.jpg"
-import imgnombres from "./imgnombres.jpg"
+import tituloIsa from "./titulo.jpg";
+import imgnombres from "./imgnombres.jpg";
 import './cositas.css';
-import divisionisa from "./divisionisa.png"
-import PersonajesIsa from './PersonajesIsa';
-import EpisodiosIsa from './EpisodiosIsa';
+import divisionisa from "./divisionisa.png";
+import PersonajesIsa from "./PersonajesIsa";
+import EpisodiosIsa from "./EpisodiosIsa";
 
 function NombreIsa() {
   return (

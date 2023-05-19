@@ -1,6 +1,6 @@
 import './App.css';
 import Presentaciones from './Presentaciones';
-import NombreIsa from './componentes/Isabella/NombreIsa'
+import NombreIsa from './componentes/Isabella/NombreIsa';
 
 function App() {
   return (
