@@ -33,11 +33,13 @@ margin: 50px 100px 20px;
 .Titulo_Gumbal{
     font-family: "gumballregular";
     font-size: 80px;
+    text-align: center;
     
    
 }
 .Imagen_Titulo_Gumball{
-
+    
+    margin-left: 165px;
     border-radius: 10px;
     border: solid 5px black;
 }

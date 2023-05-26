@@ -4,6 +4,7 @@ import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Catalogo_card1 from "./Samuel/Cards_Catalogo/Cards_C1"
 import ElIncreibleMundoDeGumball from "./Samuel/Personaje_S/Caricatura_Gumball";
+import "./Samuel/Css_2.css"
 
 
 function NavbarComp() {
@@ -11,9 +12,7 @@ function NavbarComp() {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <label class="navbar-brand" href="">
-          Signal analysis system
-        </label>
+   
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
@@ -46,7 +45,7 @@ function NavbarComp() {
                 className="nav-link active"
                 aria-current="page"
               >
-                {"Home"}
+                {"Equipo"}
              
               </Link>
             </li>
@@ -56,13 +55,13 @@ function NavbarComp() {
                 className="nav-link active"
                 aria-current="page"
               >
-                {"Home"}
+                {"Contacto"}
              
               </Link>
             </li>
           
 
-            <li class="botonLogOut">
+            <li class="botonLogOut botonNav">
               <Button
                 className="btn btn-danger"
               >
