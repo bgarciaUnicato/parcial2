@@ -2,7 +2,8 @@ import "./Catalogo_css.css"
 function Titulo_cS() {
     return (
       <div >
-            <h1 class="Titulo_Caricatura">Caricaturas</h1>
+        <h1 class="tuclase">Caricaturas</h1>
+            
       </div>
     );
   }

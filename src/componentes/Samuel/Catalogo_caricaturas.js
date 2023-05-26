@@ -11,8 +11,12 @@ function Catalogo_c() {
       <div >
             <Titulo_cS/>
             <Seccion_catalogo1/>
+            <br></br>
             <Seccion_catalogo2/>
+            <br></br>
             <Seccion_catalogo3/>            
+            <br></br>
+            
      
 
 

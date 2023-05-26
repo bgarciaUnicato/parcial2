@@ -3,11 +3,12 @@ import Card from 'react-bootstrap/Card';
 
 function Catalogo_card4() {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img class= "Imagenes_cards" variant="top" src="https://yt3.googleusercontent.com/ytc/AGIKgqMYTVSYgRX1epKO3Lx5-AlUzMoX4949VY6dRUhIEA=s900-c-k-c0x00ffffff-no-rj" />
+    <Card border="dark" style={{ width: '19rem'}}>
+      <Card.Img class= "Imagenes_cards" variant="top" src="https://m.media-amazon.com/images/I/81gCUwiFnxL._AC_SY679_.jpg" />
       <Card.Body>
-        <Card.Title>El increible mundo de Gumball</Card.Title>
-        <Button variant="primary">Go somewhere</Button>
+      <Card.Title class="Titulo_Card_S"><p class="Titulo_Card_Samuel">Un show más</p></Card.Title>
+      
+      <button  class="Boton_Card_Samuel Boton_Card_Samuel1"><p class="Titulo_Boton_Samuel">  Ingresa  </p></button>
       </Card.Body>
     </Card>
   );

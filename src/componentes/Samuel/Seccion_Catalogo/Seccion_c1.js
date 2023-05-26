@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Catalogo_card1 from '../Cards_Catalogo/Cards_C1';
-import Catalogo_card2 from '../Cards_Catalogo/Cards_C3';
+import Catalogo_card2 from '../Cards_Catalogo/Cards_C2';
 import Catalogo_card3 from "../Cards_Catalogo/Cards_C3"
 function Seccion_catalogo1() {
     return (
