@@ -3,12 +3,15 @@ import "./Seccion_Catalogo/Seccion_c1"
 import Seccion_catalogo1 from "./Seccion_Catalogo/Seccion_c1";
 import Seccion_catalogo2 from "./Seccion_Catalogo/Seccion_c2";
 import Seccion_catalogo3 from "./Seccion_Catalogo/Seccion_c3";
-
+import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 import Titulo_cS from "./Seccion_Catalogo/Titulo_Caricatura"
 
 function Catalogo_c() {
     return (
+      
       <div >
+      
             <Titulo_cS/>
             <Seccion_catalogo1/>
             <br></br>
@@ -17,11 +20,12 @@ function Catalogo_c() {
             <Seccion_catalogo3/>            
             <br></br>
             
-     
+            
 
 
-
+              
       </div>
+      
     );
   }
   

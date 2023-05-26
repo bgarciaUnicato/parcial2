@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { Button1 } from "react-bootstrap";
 
 
-function Catalogo_card1() {
+function Catalogo_card9() {
   return (
     
    
@@ -24,7 +24,7 @@ function Catalogo_card1() {
         
 
         <Link
-                to="/ElIncreibleMundoDeGumball"
+                to="/Example7"
                 className="nav-link active"
                 aria-current="page"
               >
@@ -49,4 +49,4 @@ function Catalogo_card1() {
   );
 }
 
-export default Catalogo_card1;
+export default Catalogo_card9;
