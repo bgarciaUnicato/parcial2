@@ -1,11 +1,15 @@
 import './cositas.css';
 import epPepinillo from "./epPepinillo.jpg"
 import jerry from "./jerry.jpg"
+import divisionisa from "./divisionisa.png";
+import epRicks from "./epRicks.jpg";
 
 function EpisodiosIsa()   {
- 
+ return (
  <div class="container text-center">
-
+  <img class="divisionisa" src={divisionisa} alt="division" />
+  <br></br>
+  <br></br>
    <div class="row">
      <div class="col">
       <img class="pepinillo" src={epPepinillo} alt='pepinillo rick'/>
@@ -18,7 +22,8 @@ function EpisodiosIsa()   {
       gubernamental rusa.</p>
      </div>
    </div>
-
+   <br></br>
+   <br></br>
    <div class="row">
      <div class="col">
      <img class="jerry" src={jerry} alt='Guarderia de jerrys'/>
@@ -31,10 +36,11 @@ function EpisodiosIsa()   {
      en lugar de escapar de ellos. Al final, decide asumir la responsabilidad y trabajar en su relación con su familia.</p>
      </div>
    </div>
-
+   <br></br>
+   <br></br>
    <div class="row">
      <div class="col">
-      Column
+      <img class="ricks" src={epRicks} alt='Ricks y mortys'/>
      </div>
      <div class="col">
       <h2 class="h2mortys">Temporada 1, Episodio 10</h2>
@@ -47,7 +53,7 @@ function EpisodiosIsa()   {
    </div>
 
  </div>
-   
+ );  
  
 }
 export default EpisodiosIsa;

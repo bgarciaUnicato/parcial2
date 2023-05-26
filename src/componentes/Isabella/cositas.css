@@ -1,12 +1,17 @@
-.tituloIsa  {
-    text-align: center;
+.tituloisa  {
+    font-family: 'get_schwiftyregular';
+    src: url('get_schwifty-webfont.woff2') format('woff2'),
+         url('get_schwifty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 .pnombres   {
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
 }
 .divisionisa    {
-    text-align: center;
+    max-width: 500px; /* ancho */
+    max-height: 500px; /*  altura  */
 }
 .eppepinillo    {
     text-align:justify;
@@ -17,10 +22,97 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .h2pepinillo    {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'get_schwiftyregular';
+    src: url('get_schwifty-webfont.woff2') format('woff2'),
+         url('get_schwifty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 .h2jerry    {
-    text-align: center;
+    font-family: 'get_schwiftyregular';
+    src: url('get_schwifty-webfont.woff2') format('woff2'),
+         url('get_schwifty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.h2mortys{
+    font-family: 'get_schwiftyregular';
+    src: url('get_schwifty-webfont.woff2') format('woff2'),
+         url('get_schwifty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}  
+.h2rick{
+    font-family: 'get_schwiftyregular';
+    src: url('get_schwifty-webfont.woff2') format('woff2'),
+         url('get_schwifty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}  
+.h2morty{
+    font-family: 'get_schwiftyregular';
+    src: url('get_schwifty-webfont.woff2') format('woff2'),
+         url('get_schwifty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}  
+.h2summer{
+    font-family: 'get_schwiftyregular';
+    src: url('get_schwifty-webfont.woff2') format('woff2'),
+         url('get_schwifty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+.imgnombres  {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    max-width: 600px; /* ancho */
+    max-height: 400px; /*  altura  */
+   
+}
+.pepinillo{
+    max-width: 100%; /* ancho */
+    max-height: 100%; /*  altura  */
+    
+}
+.jerry{
+    max-width: 100%; /* ancho */
+    max-height: 100%; /*  altura  */
+    
+}
+.ricks{
+    max-width: 100%; /* ancho */
+    max-height: 100%; /*  altura  */
+    
+}
+.mortys  {
+    text-align: justify;
     font-family: 'Courier New', Courier, monospace;
 }
+.morty{
+    max-width: 100%; /* ancho */
+    max-height: 100%; /*  altura  */
+    
+}
+.defmorty  {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+.rick{
+    max-width: 100%; /* ancho */
+    max-height: 100%; /*  altura  */
+}  
+.defrick {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+} 
+.summer{
+    max-width: 100%; /* ancho */
+    max-height: 100%; /*  altura  */
+} 
+.defsummer{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}  
