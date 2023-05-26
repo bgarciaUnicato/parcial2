@@ -1,10 +1,22 @@
 import './App.css';
-import Presentaciones from './Presentaciones';
+
+import Southdmb from './componentes/Daniel/Southdmb.js';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <Presentaciones />
+      
+      <Southdmb />
+      
+      
+     
+      
+      
+      
+      
     </div>
   );
 }
