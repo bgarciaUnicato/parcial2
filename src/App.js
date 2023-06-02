@@ -1,10 +1,11 @@
 import './App.css';
-import CaricaturaJC from './componentes/JuanCamiloGrajales/CaricaturaJC';
+import InsideJob from './componentes/JuanCamiloGrajales/InsideJob';
+
 
 function App() {
   return (
     <div className="App">
-      <CaricaturaJC />
+      <InsideJob />
     </div>
   );
 }

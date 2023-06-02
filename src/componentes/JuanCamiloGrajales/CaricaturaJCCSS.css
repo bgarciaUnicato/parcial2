@@ -1,24 +1,144 @@
-h1 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-}
-img {
-    width: 800px;
-    height: 500px;
-}
+.Conteiner_PresentacionIJ{
+   
 
+    
+    margin: 50px 100px 20px;
+    
+    }
+    .Conteiner_Presentacion__h4IJ{
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 10px;
+        
+        
+    }
+    .Conteiner_Presentacion__ParrafoIJ{
+        text-align: justify;
+        font-size: 20px;
+        padding: 0px 20px;
+        
+       
+    }
+    
+    .Titulo_InsideJob{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80px;
+        
+       
+    }
+    .Imagen_Titulo_InsideJob{
+    
+        border-radius: 10px;
+        border: solid 5px black;
+    }
+    
+    .Container_Personajes-h2IJ{
+        font-size: 80px;
+        text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+        margin:25px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .Imagenes_Personajes_InsideJob{
+        height: 400px;
+        width: 400px;
+        border-radius: 20px;
+        border: solid 5px black;
+        margin : 10px 0px;
+        box-sizing: border-box;  
+    }
+    
+    .Texto_InsideJob{
+        text-align: justify;
+        font-size: 20px;
+        
+        
+           
+    }
+    
+    
+    
+    
+    .container-reagan{
+        margin: 15px;
+    }
+    .container-brett{
+      margin: 15px;
+    }
+    .container-rand{
+        margin: 15px;
+    }
+    .Imagenes_Personajes_InsideJob__Title{
+        font-size: 50px;
+        margin:80px 0px 5px;
+        display: inline-block;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .Imagenes_Personajes_InsideJob__Title-brett{
+        font-size: 50px;
+        margin:55px 0px 5px;
+        display: inline-block;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .titulo_h2_InsideJob{
+        font-size: 80px;
+        font-family:Arial, Helvetica, sans-serif;
+        text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+        margin-bottom: 20px;
+        margin-top:10px;
+    }
+    .container_Episodios_InsideJob-SinPresidente{
+        margin: 15px;
+        display: inline-block;
+        margin-left: 50px;
+    }
+    .container_Episodios_InsideJob-AsesinoDeClones{
+        margin: 15px;
+        display: inline-block;
+        margin-left: 50px;
+    }
+    .container_Episodios_InsideJob-SangreAzul{
+        margin: 15px;
+        margin-left: 50px;
+        display: inline-block;
+    
+    }
+    
+    .Texto_InsideJob-SinPresidente{
+        text-align: justify;
+        font-size: 20px;
+        padding-top: 5px;
+        
+    }
+    
+    
+    .Texto_InsideJob-AsesinoDeClones{
+        text-align: justify;
+        font-size: 20px;
+        padding-top: 5px;
+        
+    
+    }
+   
+    .Texto_InsideJob-SangreAzul{
+        text-align: justify;
+        font-size: 20px;
+        padding-top: 5px;
+    
+    }
+    .container_episodios-h5IJ{
+    
+        font-size: 50px;
+        margin-top: 10px;
+        
+        font-family:Arial, Helvetica, sans-serif;
+    }
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-p {
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    max-width: 800px;
-  }
+.LineaIJ{
+    height: 100px;
+    width: 1350px;
+
+}    
