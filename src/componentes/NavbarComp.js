@@ -31,7 +31,7 @@ function NavbarComp() {
 
             <li class="nav-item">
               <Link
-                to="/simpson"
+                to="/elproyecto"
                 className="nav-link active"
                 aria-current="page"
               >

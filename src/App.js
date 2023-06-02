@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import Southdmb from './componentes/Daniel/Southdmb'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import NavbarComp from"./componentes/NavbarComp"
 import Catalogo_c from './componentes/Samuel/Catalogo_caricaturas';
 import ElIncreibleMundoDeGumball from './componentes/Samuel/Personaje_S/Caricatura_Gumball';
-import Southdmb from './componentes/Daniel/Southdmb'
+import El_proyecto_S from './componentes/Samuel/El_Proyecto';
 
 function App() {
 
@@ -30,7 +31,11 @@ function App() {
   <div>
     <Catalogo_c/>
     </div>} />
-  
+      
+    <Route path="/elproyecto" element={
+  <div>
+    <El_proyecto_S/>
+    </div>} />
 
     <Route path="/ElIncreibleMundoDeGumball" element={
     <div>
@@ -40,11 +45,11 @@ function App() {
       </div>} />
 
       <Route path="/southpark" element={
-     <div>
-     <Southdmb/>
-     
-     
-     </div>} />
+    <div>
+      <h1><Southdmb/></h1>
+      
+      
+      </div>} />
 
       <Route path="/Example1" element={
     <div>
