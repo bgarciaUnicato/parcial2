@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'gumballregular';
+    src: url("./Fuentes/gumball-webfont.woff") format('woff'),
+         url("./Fuentes/gumball-webfont.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.Conteiner_Presentacion{
+   
+
+border-style: groove;
+margin: 50px 100px 20px;
+
+}
+.Conteiner_Presentacion__h4{
+    text-align: left;
+    font-family: "gumballregular";
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+    
+}
+.Conteiner_Presentacion__Parrafo{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 20px;
+    
+   
+}
+
+.Titulo_Gumbal{
+    font-family: "gumballregular";
+    font-size: 80px;
+    text-align: center;
+    
+   
+}
+.Imagen_Titulo_Gumball{
+    
+    margin-left: 165px;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+
+.Container_Personajes-h2{
+    font-size: 80px;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    margin:25px;
+    font-family: "gumballregular";
+}
+
+.Imagenes_Personajes_Gumball{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    border: solid 5px black;
+    margin : 10px 0px;
+    box-sizing: border-box;  
+}
+
+.Texto_Gumball{
+    text-align: center;
+    font-size: 20px;
+    
+    
+       
+}
+.Texto_Gumball-Darwin{
+    text-align: center;
+
+}
+
+.container-gumball{
+    border: 3px aqua  ;
+    border-style:solid;
+    margin: 15px;
+}
+.container-darwin{
+    border: 3px orange  ;
+    border-style:solid;
+    margin: 15px;
+}
+.container-anais{
+    border: 3px pink  ;
+    border-style:solid;
+    margin: 15px;
+}
+.Imagenes_Personajes_Gumball__Title{
+    font-size: 50px;
+    margin:80px 0px 5px;
+    display: inline-block;
+    font-family: "gumballregular";
+}
+.Imagenes_Personajes_Gumball__Title-darwin{
+    font-size: 50px;
+    margin:55px 0px 5px;
+    display: inline-block;
+    font-family: "gumballregular";
+}
+
+.titulo_h2_gumball{
+    font-size: 80px;
+    font-family: "gumballregular";
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+    margin-top:10px;
+}
+.container_Episodios_Gumball-Elinicio{
+    border: 3px aqua  ;
+    border-style:solid;
+    margin: 15px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.container_Episodios_Gumball-Lanuez{
+    border: 3px rgb(83, 24, 0)  ;
+    border-style:solid;
+    margin: 15px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.container_Episodios_Gumball-Elfin{
+    border: 3px rgb(39, 39, 39)  ;
+    border-style:solid;
+    margin: 15px;
+    margin-left: 50px;
+    display: inline-block;
+
+}
+
+.Texto_Gumball-losOrigenes{
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+.Texto_Gumball-losOrigenes-2{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    
+}
+.Texto_Gumball-ElCaparazon{
+    text-align: center;
+    font-size: 20px;
+        
+
+}
+
+.Texto_Gumball-ElCaparazon-2{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    
+
+}
+.Texto_Gumball-ElDesastre{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.Texto_Gumball-ElDesastre-2{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+.container_episodios-h5{
+
+    font-size: 50px;
+    margin-top: 10px;
+    
+    font-family: "gumballregular";
+}
