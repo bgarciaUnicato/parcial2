@@ -1,0 +1,104 @@
+*{padding-left: 10px;
+    padding-right: 10px;}
+
+.imagen3{
+
+    width:250px;
+    height:250px;
+    
+    
+}
+
+.Personaje2{
+    
+    font-size: 23px;
+    text-shadow: 0 0 3px #66ecec;
+    font-family:cursive
+}
+
+.parrafo_personaje2{
+   
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.imagen4{
+
+    width:250px;
+    height:250px;
+}
+
+.Personaje3{
+    
+    font-size: 23px;
+    text-shadow: 0 0 3px #7d1db4;
+    font-family:cursive
+}
+
+.parrafo_personaje3{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.parrafo_personaje4{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Subtitulo2{
+    text-shadow: 0 0 3px #e0480c;
+    font-family:cursive
+}
+
+.imagen6{
+
+    width:250px;
+    height:240px;
+    
+}
+
+.Episodio1{
+    font-size: 23px;
+    text-shadow: 0 0 3px #3459d4;
+    font-family:cursive
+}
+
+.parrafo_episodio1{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.imagen7{
+
+    width:250px;
+    height:240px;
+}
+
+.Episodio2{
+    font-size: 23px;
+    text-shadow: 0 0 3px #d6eb1b;
+    font-family:cursive
+}
+
+.parrafo_episodio2{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.imagen8{
+
+    width:250px;
+    height:240px;
+}
+
+.Episodio3{
+    font-size: 23px;
+    text-shadow: 0 0 3px #b81178;
+    font-family:cursive
+}
+
+.parrafo_episodio3{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;  
+}

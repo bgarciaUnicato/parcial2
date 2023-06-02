@@ -1,0 +1,38 @@
+
+.imagen2{
+
+    width:250px;
+    height:250px;
+    
+    
+}
+.parrafo_introduccion {
+   
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.titulo {
+  text-shadow: 0 0 3px #ce5f04;
+  font-family:cursive
+}
+
+.Subtitulo{
+    
+    text-shadow: 0 0 3px #e0480c;
+    font-family:cursive
+}
+
+.Personaje1{
+    
+    font-size: 23px;
+    text-shadow: 0 0 3px #e0d20c;
+    font-family:cursive
+}
+
+.parrafo_personaje1{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+
