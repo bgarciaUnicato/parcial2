@@ -23,7 +23,7 @@ function App() {
 
   <Route path="/" element={
   <div>
-    <h1>Pagina home del Proyecto</h1>
+    <h1>Pagina home del Proyectooo</h1>
   </div>} />
 
     <Route path="/catalogoCaricaturas" element={
