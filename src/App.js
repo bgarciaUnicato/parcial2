@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import NavbarComp from"./componentes/NavbarComp"
 import Catalogo_c from './componentes/Samuel/Catalogo_caricaturas';
 import ElIncreibleMundoDeGumball from './componentes/Samuel/Personaje_S/Caricatura_Gumball';
-
+import Southdmb from './componentes/Daniel/Southdmb'
 
 function App() {
 
@@ -39,14 +39,12 @@ function App() {
       
       </div>} />
 
-
-
-      <Route path="/Example" element={
-    <div>
-      <h1>Example</h1>
-      
-      
-      </div>} />
+      <Route path="/southpark" element={
+     <div>
+     <Southdmb/>
+     
+     
+     </div>} />
 
       <Route path="/Example1" element={
     <div>

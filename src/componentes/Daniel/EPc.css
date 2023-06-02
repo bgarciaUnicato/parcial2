@@ -1,0 +1,30 @@
+.episode-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.episode-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px; /* entre img */
+}
+
+.episode-image {
+  width: 320px;
+  height: 170px;
+  margin-right: 40px; /* entre la img y el txt */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.episode-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.episode-info {
+  line-height: 1.5;
+  text-align: left;
+}
+ 
