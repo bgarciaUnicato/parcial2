@@ -32,7 +32,7 @@ function Episodios_Gumball() {
       <Row>
         <Col xs={6}><img class="Imagenes_Personajes_Gumball" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/12/The-Disaster-The-Amazing-World-Of-Gumball.jpg" alt="El fin"/></Col>
         <Col xs={6}> <h5 class="container_episodios-h5">El desastre</h5><p class="Texto_Gumball-ElDesastre">En El asombroso mundo de GumballEn el final de la cuarta temporada, “The Disaster”, la vida de Gumball es arruinada lentamente por su némesis Rob, quien ha descubierto un control remoto universal que puede controlar su mundo.
-        <p p class="Texto_Gumball-ElDesastre-2">Este episodio fue bueno por sus propios méritos, pero, dado que dejó a los espectadores con un suspenso emocionante que no se resolvería hasta el estreno de la quinta temporada, en realidad no está completo sin esa segunda mitad.  </p></p></Col>
+        <p p class="Texto_Gumball-ElDesastre-2">Este lepisodio fue bueno por sus propios méritos, pero, dado que dejó a los espectadores con un suspenso emocionante que no se resolvería hasta el estreno de la quinta temporada, en realidad no está completo sin esa segunda mitad.  </p></p></Col>
       </Row>
     </Container>
     </div>
