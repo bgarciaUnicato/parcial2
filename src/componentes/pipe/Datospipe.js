@@ -25,15 +25,15 @@ function Datospipe() {
             <div class="personajes">
                 <h2>Personajes</h2>
                 <div class="personaje1">
-                    <img src={mac} alt="" class="mac"/>
-                    <p class="mac">Mac es el personaje principal de la serie animada “Mansión Foster para amigos imaginarios”. Es un niño de 8 años que es el mejor amigo de Bloo, su amigo imaginario. Mac es un niño amable y cariñoso que siempre está dispuesto a ayudar a sus amigos. Tiene un hermano mayor llamado Terrence y una madre que trabaja todo el día. Mac es muy protector con Bloo y siempre trata de mantenerlo fuera de problemas. Además, Mac es muy inteligente y creativo, lo que le permite idear planes ingeniosos para ayudar a sus amigos.</p>
+                    <img src={mac} alt="" />
+                    <p class="mac"> Mac es el personaje principal de la serie animada “Mansión Foster para amigos imaginarios”.Es un niño de 8 años que es el mejor amigo de Bloo, su amigo imaginario. Mac es un niño amable y cariñoso que siempre está dispuesto a ayudar a sus amigos. Tiene un hermano mayor llamado Terrence y una madre que trabaja todo el día. Mac es muy protector con Bloo y siempre trata de mantenerlo fuera de problemas. Además, Mac es muy inteligente y creativo, lo que le permite idear planes ingeniosos para ayudar a sus amigos.</p>
                 </div>
                 <div class="personaje2">
-                <img src={bloo} alt="" class="bloo"/>
+                <img src={bloo} alt="" />
                 <p class="bloo">Bloo es un personaje principal de la serie animada “Mansión Foster para amigos imaginarios”. Es el amigo imaginario de Mac y es muy travieso y juguetón. Bloo es muy divertido y siempre está buscando nuevas formas de divertirse. A menudo se mete en problemas debido a su comportamiento travieso, pero siempre logra salir de ellos con la ayuda de sus amigos. Bloo es muy leal a Mac y siempre está dispuesto a ayudarlo cuando lo necesita.</p>
                 </div>
                 <div class="personaje3">
-                <img src={frankie} alt="" class="frankie"/>
+                <img src={frankie} alt="" />
                 <p class="frankie">Frankie Foster es la nieta de Madame Foster y tiene 22 años. Es la cuidadora de la Mansión Foster y se encarga del buen mantenimiento de la mansión: limpia, friega, plancha e intercede en los conflictos internos de los habitantes de la mansión. Es alegre y cordial, pero a veces destapa su enorme mal genio al ser incordiada por el Sr. Herriman</p>
                 </div>
             </div>
@@ -43,6 +43,7 @@ function Datospipe() {
          </div>
          <section class="section3">
             <div class="episodes">
+                <h1>Episodios</h1>
                 <div class="episode1">
                     <img src={episode1} alt=""/>
                     <p>En este episodio, Mac y Bloo descubren una sala secreta en la mansión que tiene la capacidad de convertir cualquier deseo en realidad. Esto lleva a una serie de situaciones hilarantes y desafíos para los personajes.</p>
