@@ -1,47 +1,75 @@
-.imagen{
-    width: 600px;
-    height: 600px;
-    float: center;
-    border-radius: 50px;
+.Linea{
+background-color: black;
+height: 5px;
+font-size: 8px;
 
-    
-    
-    }
-    .imagen1{
-        margin-left: auto; 
-        border-radius: 50px;
-    width: auto;
-    height: 250px;
-    }
-    .imagen2{
-        margin-left: auto;
-        border-radius: 50px;
-    width: auto;
-    height: 250px;
-    float: center;
-    }
+margin: 0px -110px
+}
+
+.Titulos{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.Subtitulos{
+    font-family:cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.imagen1{
+
+    width: 700px;
+    height: auto;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.imagen2{
+
+    width: 330px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.imagen3{
+
+    width: 410px;
+    height: auto;
+    border-radius: 30px;
+
+}
+
+.imagen4{
    
-    p{
-     text-align: justify;
-     float:center
-    }
-    .imagen3{
-        margin-left: auto; 
-        border-radius: 50px;
-    width: auto;
-    height: 250px;
-    float: center;
+    width: 350px;
+    height: auto;
+    border-radius: 30px;
+    margin: 10px;
 
-    }
-    .Titulo_Sebastian{
-        font-family: 'Pacifico', cursive;
 
-    } 
+}
 
-    .imagen4{
-        margin-left: auto; 
-        border-radius: 50px;
-    width: auto;
-    height: 250px;
+.imagen5{
 
-    }
+    width: 300px;
+    height: auto;
+    
+
+
+}
+
+.ParrafoDescripcion{
+    font-size: 20px;
+    text-align: justify;
+    
+
+}
+
+.texto_Personaje{
+
+    text-align: justify;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
